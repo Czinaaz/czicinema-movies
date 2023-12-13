@@ -6,15 +6,15 @@ export const CastItem = ({ name, img, character }) => {
   return (
     <>
       <li>
-        {/* <img
+        <img
           width="200"
           src={
             img
               ? `https://image.tmdb.org/t/p/w500${img}`
-              : 'https://s1.hostingkartinok.com/uploads/images/2022/07/40ceaea2e22257d2a139ca5a0c0b8ba9.jpg'
+              : 'https://media.istockphoto.com/id/1358773518/vector/black-thug-life-meme-glasses-in-pixel-art-style.jpg?s=612x612&w=0&k=20&c=93g1fyCWjMZQ1-f4WKgTC47k7xZhQXW_M_MJ2xo6IzY='
           }
           alt={name}
-        /> */}
+        />
         <h3>{name}</h3>
         <p>{character}</p>
       </li>

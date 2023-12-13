@@ -66,7 +66,7 @@ const Movies = () => {
                       src={
                         el.poster_path
                           ? `https://image.tmdb.org/t/p/w500${el.poster_path}`
-                          : `https://imageio.forbes.com/blogs-images/forbespr/files/2017/10/1010_forbes-400-trump-11-14-2017-cover_768x1005.jpg?format=jpg&width=1440`
+                          : `https://wallpapers.com/images/hd/funny-memes-picture-y1b50hessb0q1vzr.jpg`
                       }
                       alt={el.name}
                     />
