@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    margin-left: 10%;
+    
+  }
+  
+  .descrWrapper {
+    margin-left: 5%;
+  }
+  
+  .descrWrapper p {
+    width: 80%;
+    
+  }
+  
+  .btn {
+    padding: 5px 20px;
+    margin: 0% 0% 0% 8%;
+    border: 2px transparent black;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 56, 56);
+  }
+  
+.btn:hover,
+.btn:focus {
+  background-color: brown;
+  color: white;
+}
+
+  .link {
+    padding: 10px 30;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  
+  .link:hover {
+    color: brown;
+  }
+  
+  .info {
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+ 
+    
+  }

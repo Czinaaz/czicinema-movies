@@ -1,0 +1,19 @@
+.filmList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+  }
+  
+  .homeMovieItem {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }

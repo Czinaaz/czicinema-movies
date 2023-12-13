@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    margin-right: 10%;
+  }
+  
+  .nameNav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 50%;
+    font-weight: 900;
+    font-size: 44px;
+    color: rgb(26, 26, 26);
+  }
+  .nameNav span {
+    font-family: cursive;
+    font-size: 46px;
+    color: brown;
+  }
+  
+  .navLink {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  .navList {
+    display: flex;
+    margin-left: 65%;
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  
+  .activeNavLink {
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+    background-color: brown;
+    text-decoration: none;
+  }

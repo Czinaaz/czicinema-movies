@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form input {
+    padding: 10px 200px 10px 10px;
+    border-radius: 10px;
+    margin-left: 35%;
+  }
+  
+  .form button {
+    border: 2px transparent black;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(155, 149, 111);
+  }
+  
+  .form button:hover {
+    background-color: brown;
+    color: white;
+  }
+  
+  .filmList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .filmListItem {
+    display: grid;
+    
+  }
+  
+  .filmList a {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    
+  }
+
+h3 {
+    text-align: center;
+    margin-top: 2%;
+}
