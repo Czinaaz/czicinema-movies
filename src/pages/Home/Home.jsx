@@ -26,7 +26,7 @@ const Home = () => {
         {movies.map(({ id, title, name, poster_path }) => {
           return (
             <li key={id} className={styles.filmListItem}>
-              <Link className={styles.homeMovieItem} to={`/goit-react-hw-05-movies/movies/${id}`}>
+              <Link className={styles.homeMovieItem} to={`/czicinema-movies/movies/${id}`}>
                 <img
                   src={
                     poster_path

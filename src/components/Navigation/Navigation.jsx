@@ -7,7 +7,7 @@ export const Navigation = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.nameNav}>
-        <NavLink to="/goit-react-hw-05-movies/" className={styles.nameLink}>
+        <NavLink to="/czicinema-movies/" className={styles.nameLink}>
           <>Czi<span>Cinema</span></>
         </NavLink>
       </div>
@@ -17,7 +17,7 @@ export const Navigation = () => {
           className={({ isActive }) =>
             isActive ? styles.activeNavLink : styles.navLink
           }
-          to="/goit-react-hw-05-movies/"
+          to="/czicinema-movies/"
           end /* Ensures Home is only active on the exact "/" path */
         >
           Home
@@ -30,7 +30,7 @@ export const Navigation = () => {
               isActive ? styles.activeNavLink2 : styles.navLink
             }
             state={{ from: location }}
-            to="/goit-react-hw-05-movies/movies"
+            to="/czicinema-movies/movies"
           >
             Movies
           </NavLink>

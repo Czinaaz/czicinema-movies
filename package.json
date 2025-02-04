@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-05-movies",
+  "name": "czicinema-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://czinaaz.github.io/goit-react-hw-05-movies/",
+  "homepage": "https://czinaaz.github.io/czicinema-movies/",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.3",

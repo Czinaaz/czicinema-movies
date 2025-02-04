@@ -33,7 +33,7 @@ const MovieDetails = () => {
           <div className={styles.goBack}>
             <button
               className={styles.btn}
-              onClick={() => navigate(location?.state?.from ?? '/goit-react-hw-05-movies/')}
+              onClick={() => navigate(location?.state?.from ?? '/czicinema-movies/')}
             >
               Go back
             </button>

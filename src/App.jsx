@@ -17,9 +17,9 @@ export const App = () => {
       <Navigation/>
       <Suspense fallback={<div className={styles.loader}>Loading...</div>}>
         <Routes>
-          <Route path="/goit-react-hw-05-movies/" element={<Home />} />
-          <Route path="/goit-react-hw-05-movies/movies" element={<Movies/>} />
-          <Route path="goit-react-hw-05-movies/movies/:movieId" element={<MovieDetails />}> 
+          <Route path="/czicinema-movies/" element={<Home />} />
+          <Route path="/czicinema-movies/movies" element={<Movies/>} />
+          <Route path="/czicinema-movies/movies/:movieId" element={<MovieDetails />}> 
             <Route path='Cast' element={<Cast />}/>
             <Route path='Reviews' element={<Reviews />}/>
           </Route>
