@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkczicinema_movies=self.webpackChunkczicinema_movies||[]).push([[666],{666:function(e,n,c){c.r(n),c.d(n,{default:function(){return a}});var i=c(87),o="NotFound_hero__ctTUo",s="NotFound_link__D0B5M",t=c(184),a=function(){return(0,t.jsxs)("div",{className:o,children:[(0,t.jsx)("h2",{children:"404 Page not found"}),(0,t.jsx)("h3",{children:(0,t.jsx)(i.rU,{className:s,to:"/czicinema-movies/",children:"Go to Home Page"})})]})}}}]);
+//# sourceMappingURL=666.a4b0ad0a.chunk.js.map
