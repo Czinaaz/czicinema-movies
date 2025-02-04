@@ -82,7 +82,10 @@ const Movies = () => {
             })}
           </ul>
         ) : (
-          <h3>Please, search a movie</h3>
+          <div className={styles.emptyPage}>
+            <h3>Please, search a movie</h3>
+          </div>
+
         )}
       </>
     </>

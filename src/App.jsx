@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import {Routes, Route } from 'react-router-dom';
 import {Navigation} from './components/Navigation/Navigation';
 import styles from './App.module.css'
-
+import Footer from './components/Footer/Footer';
 
 const Home = lazy(() => import('./pages/Home/Home'));
 const Movies = lazy(() => import('./pages/Movies/Movies'));
@@ -26,6 +26,7 @@ export const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
+      <Footer/>
   </div>
   );
 };

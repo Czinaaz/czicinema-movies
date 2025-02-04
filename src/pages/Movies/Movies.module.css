@@ -146,10 +146,12 @@
   margin-top: 10px;
 }
 
-
+.emptyPage {
+  margin: 10% 0 20% 0;
+}
 h3 {
   text-align: center;
-  margin-top: 5%;
+
 } 
 
 
