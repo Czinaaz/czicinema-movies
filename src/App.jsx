@@ -15,7 +15,7 @@ export const App = () => {
   return (
     <div className={styles.container}>
       <Navigation/>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className={styles.loader}>Loading...</div>}>
         <Routes>
           <Route path="/goit-react-hw-05-movies/" element={<Home />} />
           <Route path="/goit-react-hw-05-movies/movies" element={<Movies/>} />

@@ -8,7 +8,7 @@ import { ReviewsItem } from './ReviewsItem';
 
 import styles from './Reviews.module.css';
 
-
+import { RiEmotionUnhappyLine } from "react-icons/ri";
 
 const Reviews = () => {
   const { movieId } = useParams();
@@ -35,7 +35,10 @@ const Reviews = () => {
             })}
         </ul>
       ) : (
-        <h4>There is no reviews yet</h4>
+        <div  className={styles.elseDiv}>
+          <h4>There is no reviews yet <RiEmotionUnhappyLine/></h4>
+        </div>
+        
       )}
     </>
   );

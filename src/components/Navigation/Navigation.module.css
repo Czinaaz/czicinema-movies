@@ -1,48 +1,89 @@
+
+
 .nav {
-    display: flex;
-    margin-right: 10%;
-  }
-  
-  .nameNav a {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10% 1% 5%;
+  background-color: #121212;
+  margin: 0%;
+}
+.nameLink {
+  text-decoration: none;
+  color: #ff6347;
+  font-size: 3rem;
+  transition: color 0.3s ease-in-out;
+}
+.nameLink span {
+  color: white;
+}
+.nameNav {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+/* Default nav link style */
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.activeNavLink {
+  color: #ff6347; 
+  font-weight: bold;
+  text-decoration: none;
+
+  font-size: 1.5rem;
+}
+
+
+.activeNavLink2 {
+  color: #ff6347; 
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 50%;
-    font-weight: 900;
-    font-size: 44px;
-    color: rgb(26, 26, 26);
   }
-  .nameNav span {
-    font-family: cursive;
-    font-size: 46px;
-    color: brown;
-  }
-  
-  .navLink {
-    font-weight: 700;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-  }
-  
-  
+
   .navList {
-    display: flex;
-    margin-left: 65%;
-    text-decoration: none;
-    display: flex;
-    gap: 40px;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
-  
-  
+
+  .navLink {
+    font-size: 1rem;
+    
+  }
+
   .activeNavLink {
-    border-radius: 5px;
-    padding: 5px 15px;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(255, 251, 251);
-    background-color: brown;
+    color: #ff6347; 
+    font-weight: bold;
     text-decoration: none;
+    font-size: 1rem;
   }
+  
+  
+  .activeNavLink2 {
+    color: #ff6347; 
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+}

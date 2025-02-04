@@ -28,14 +28,18 @@ const MovieDetails = () => {
   return (
     <>
       {movieInfo ? (
-        <>
-          <button
-            className={styles.btn}
-            onClick={() => navigate(location?.state?.from ?? '/')}
-          >
-            Go back
-          </button>
+        <div className={styles.divStyle}>
           <hr />
+          <div className={styles.goBack}>
+            <button
+              className={styles.btn}
+              onClick={() => navigate(location?.state?.from ?? '/goit-react-hw-05-movies/')}
+            >
+              Go back
+            </button>
+          </div>
+
+
           <div className={styles.wrapper}>
             <div>
               <img
@@ -87,7 +91,7 @@ const MovieDetails = () => {
           </div>
 
           <Outlet />
-        </>
+        </div>
       ) : (
         <h3>Ooops, something went wrong...</h3>
       )}

@@ -1,9 +1,12 @@
 .list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5%;
     text-align: center;
     margin: auto;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    margin-bottom: 10%;
   }

@@ -9,8 +9,7 @@ import { Link } from 'react-router-dom';
 import styles from './Movies.module.css';
 
 import { toast } from 'react-toastify';
-
-
+import { FaSearch } from "react-icons/fa";
 
 const Movies = () => {
 
@@ -26,7 +25,7 @@ const Movies = () => {
     evt.preventDefault();
 
     if (evt.target.query.value === '') {
-      toast.error('Please enter a movie name');
+      toast.error('Please enter a movie title');
 
       return;
     }
@@ -45,12 +44,17 @@ const Movies = () => {
 
   return (
     <>
-      <form onSubmit={onSubmit} className={styles.form}>
-        <input type="text" name="query" />
-        <button type="submit">Search a movie</button>
-      </form>
 
-      <hr />
+    <div className={styles.hero}>
+      <form onSubmit={onSubmit} className={styles.form}>
+        <input type="text" name="query" placeholder='Search a movie' autocomplete="off"/>
+        <button type="submit" ><FaSearch className={styles.searchIcon}/></button>
+      </form>
+    </div>
+    
+
+{/* 
+      <hr /> */}
 
       <>
         {' '}
@@ -61,17 +65,17 @@ const Movies = () => {
                 <li key={el.id} className={styles.filmListItem}>
                   <Link state={{ from: location }} to={`/goit-react-hw-05-movies/movies/${el.id}`}>
                     <img
-                      width="400"
+                      width="300"
                       height="auto"
                       src={
                         el.poster_path
-                          ? `https://image.tmdb.org/t/p/w500${el.poster_path}`
-                          : `https://wallpapers.com/images/hd/funny-memes-picture-y1b50hessb0q1vzr.jpg`
+                          ? `https://image.tmdb.org/t/p/w300${el.poster_path}`
+                          : `https://images.unsplash.com/photo-1521678164864-532dfc45a5b9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`
                       }
                       alt={el.name}
                     />
 
-                    <p>{el.title ? el.title : el.name}</p>
+                    <p className={styles.titleName}>{el.title ? el.title : el.name}</p>
                   </Link>
                 </li>
               );

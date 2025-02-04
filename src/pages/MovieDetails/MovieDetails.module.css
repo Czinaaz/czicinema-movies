@@ -1,3 +1,5 @@
+/* 
+
 .wrapper {
     display: flex;
     margin-left: 10%;
@@ -13,20 +15,25 @@
     
   }
   
+  .goBack {
+    margin: 2% auto ;
+  }
+
+
   .btn {
     padding: 5px 20px;
-    margin: 0% 0% 0% 8%;
-    border: 2px transparent black;
+    margin: 0% 0% 0% 5%;
+    border: 1px transparent rgb(127, 127, 127);
     border-radius: 5px;
     font-weight: 800;
     cursor: pointer;
-    color: rgb(255, 255, 255);
-    background-color: rgb(61, 56, 56);
+    color: rgb(71, 71, 71);
+    background-color: rgba(230, 230, 230, 0.701);
   }
   
 .btn:hover,
 .btn:focus {
-  background-color: brown;
+  background-color: rgb(192, 115, 115);
   color: white;
 }
 
@@ -47,4 +54,144 @@
     margin-left: 5%;
  
     
+  } */
+
+
+  /* MovieDetails.module.css */
+
+.divStyle {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.goBack {
+  margin: 2% auto ;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #d04a35;
+}
+
+/* Wrapper for Movie Details */
+.wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Image Styling */
+.wrapper img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* Text Container */
+.descrWrapper {
+  flex: 1;
+  padding: 10px;
+}
+
+.descrWrapper h2 {
+  font-size: 2rem;
+}
+
+.descrWrapper h3 {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.descrWrapper p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Additional Info Links */
+.info {
+  margin: 5% 0 5% 5%;
+  
+}
+
+.link {
+  display: inline-block;
+  margin: 1% 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #0088ff;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .wrapper img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .descrWrapper {
+    padding: 0;
+  }
+
+  .descrWrapper h2 {
+    font-size: 1.8rem;
+  }
+
+  .descrWrapper h3 {
+    font-size: 1.2rem;
+  }
+
+  .descrWrapper p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .descrWrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .descrWrapper h3 {
+    font-size: 1rem;
+  }
+
+  .descrWrapper p {
+    font-size: 0.9rem;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .link {
+    display: block;
+    margin: 10px auto;
+  }
+}

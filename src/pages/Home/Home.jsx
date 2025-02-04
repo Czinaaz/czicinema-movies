@@ -19,6 +19,9 @@ const Home = () => {
 
   return (
     <>
+      <div className={styles.header}>
+        <h1 className={styles.headerText}>Welcome to Czi Cinema</h1>
+      </div>
       <ul className={styles.filmList}>
         {movies.map(({ id, title, name, poster_path }) => {
           return (
@@ -27,7 +30,7 @@ const Home = () => {
                 <img
                   src={
                     poster_path
-                      ? `https://image.tmdb.org/t/p/w400${poster_path}`
+                      ? `https://image.tmdb.org/t/p/w300${poster_path}`
                       : 'https://imageio.forbes.com/blogs-images/forbespr/files/2017/10/1010_forbes-400-trump-11-14-2017-cover_768x1005.jpg?format=jpg&width=1440'
                   }
                   alt={title}
