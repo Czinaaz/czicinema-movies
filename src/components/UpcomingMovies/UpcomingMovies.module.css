@@ -1,0 +1,52 @@
+.upcomingSection {
+    padding: 20px;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+.movieContainer {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #ffcc00 transparent;
+}
+
+.movieContainer::-webkit-scrollbar {
+    height: 8px;
+}
+
+.movieContainer::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 10px;
+}
+
+.movieCard {
+    min-width: 200px;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.movieTitle {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.releaseDate {
+    font-size: 0.9rem;
+    color: #bbb;
+}

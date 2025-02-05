@@ -34,3 +34,15 @@ export const getRewiesMovies = async id => {
 /movie/${id}/reviews`);
   return data.results;
 };
+export const getMovieTrailers = async id => {
+  const { data } = await moviesApiClient.get(`/movie/${id}/videos`);
+  return data.results.filter(video => video.type === "Trailer" && video.site === "YouTube");
+};
+export const fetchUpcomingMovies = async () => {
+  const { data } = await moviesApiClient.get('/movie/upcoming');
+  return data.results;
+};
+export const getMovieVideos = async id => {
+  const { data } = await moviesApiClient.get(`/movie/${id}/videos`);
+  return data.results;
+};

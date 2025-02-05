@@ -48,7 +48,7 @@ const MovieDetails = () => {
                 src={
                   movieInfo.poster_path
                     ? `https://image.tmdb.org/t/p/w500${movieInfo.poster_path}`
-                    : 'https://wallpapers.com/images/hd/funny-memes-picture-y1b50hessb0q1vzr.jpg'
+                    : 'https://images.unsplash.com/photo-1521678164864-532dfc45a5b9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                 }
                 alt={movieInfo.title}
               />
@@ -57,12 +57,19 @@ const MovieDetails = () => {
               <h2>
                 {movieInfo.title} ({movieInfo.release_date.slice(0, 4)})
               </h2>
-              <h3>
+              <h3 className={styles.userScore}>
                 User score:{' '}
-                {Math.ceil(Number(movieInfo.vote_average) * 10) + '%'}
+                <span
+                  style={{
+                    color: movieInfo.vote_average * 10 < 50 ? 'red' :
+                          movieInfo.vote_average * 10 < 75 ? '#bb9600' : 'green'
+                  }}
+                >
+                  {Math.ceil(Number(movieInfo.vote_average) * 10) + '%'}
+                </span>
               </h3>
               <h3>Overview</h3>
-              <p>{movieInfo.overview}</p>
+              <p >{movieInfo.overview}</p>
               <h3>Genres</h3>
               <span>
                 {movieInfo.genres.map(genre => genre.name).join(', ')}

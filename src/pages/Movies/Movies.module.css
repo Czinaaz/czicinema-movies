@@ -1,68 +1,10 @@
-/* 
 
-  
-
-
-
-
-  .filmList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-  }
-  .filmListItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px; 
-    margin: 0;
-    padding: 0;
-    background-color: rgb(250, 250, 250);
-
-  }
-
-  .filmListItem img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 300px; 
-    height: auto; 
-    object-fit: cover; 
-    border-radius: 5px;
-  }
-  
-  .filmList a {
-    width: fit-content;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(0, 0, 0);
-    word-wrap: break-word;
-    white-space: normal;
-    background-color: rgb(250, 250, 250);
-
-  }
-
-  .titleName {
-    background-color: rgb(250, 250, 250);
-  }
-
-
-
-
-/* ✅ Hero Section (Search Bar) */
 .hero {
+  
   display: flex;
   justify-content: center;
   padding: 20px;
-  height: 180px;
+  height: 350px;
   background-image: linear-gradient(
     to top,
     #00000099,
@@ -91,11 +33,11 @@
 }
 
 .form input::placeholder {
-  color: rgba(255, 255, 255, 0.711);
+  color: #ffcc00a9;
 }
 
 .form input:focus {
-  border-bottom: 2px solid #ff6347;
+  border-bottom: 2px solid #ffcc00;
 }
 
 
@@ -129,7 +71,6 @@
   max-width: 300px;
   margin: unset;
   padding: unset;
-  /* background-color: rgb(155, 79, 79); */
 }
 
 

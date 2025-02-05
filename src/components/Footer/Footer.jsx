@@ -10,13 +10,13 @@ const Footer = () => {
         </div>
         
         <ul className={styles.navLinks}>
-          <li><Link to="/goit-react-hw-05-movies/">Home</Link></li>
-          <li><Link to="/goit-react-hw-05-movies/movies">Movies</Link></li>
-          <li><a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><Link to="/czicinema-movies/">Home</Link></li>
+          <li><Link to="/czicinema-movies/movies">Movies</Link></li>
+          <li><a href="https://github.com/Czinaaz" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
 
         <p className={styles.copyright}>
-          © {new Date().getFullYear()} Czi Cinema. All rights reserved.
+          © {new Date().getFullYear()} Czinaaz. All rights reserved.
         </p>
       </div>
     </footer>

@@ -21,8 +21,11 @@
 
 
 .header {
-  height: 200px;
-  background-image: url('https://plus.unsplash.com/premium_photo-1682125771198-f7cbed7cb868?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: linear-gradient(
+    to top,
+    #00000099,
+    #28282885
+  ),url('https://plus.unsplash.com/premium_photo-1682125771198-f7cbed7cb868?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -34,7 +37,9 @@
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   text-decoration: none;
-}
+  padding: 20px;
+  height: 300px;
+  }
 
 .filmList {
   display: grid;
@@ -61,6 +66,30 @@
 .filmListItem img:hover {
   transform: scale(1.05);
 }
+
+.trailerContainer {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: #ffcc00 transparent;
+  background-color: rgb(33, 33, 33);
+}
+
+.trailer {
+  width: 300px;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.trailer:hover {
+  transform: scale(1.05);
+}
+
+
 
 .homeMovieItem  {
   font-size: 1rem;

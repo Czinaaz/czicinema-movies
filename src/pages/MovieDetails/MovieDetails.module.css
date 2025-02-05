@@ -72,8 +72,8 @@
 .btn {
   padding: 10px 15px;
   font-size: 1rem;
-  background-color: #ff6347;
-  color: white;
+  background-color: #fed42ca4;
+  color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -81,7 +81,7 @@
 }
 
 .btn:hover {
-  background-color: #d04a35;
+  background-color: #fdd121;
 }
 
 /* Wrapper for Movie Details */
@@ -89,6 +89,7 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  margin: 5% 0 5% 0;
 }
 
 /* Image Styling */
@@ -96,6 +97,13 @@
   width: 400px;
   border-radius: 10px;
 }
+
+.userScore span {
+  color: red;
+  font-weight: 900;
+}
+
+
 
 /* Text Container */
 .descrWrapper {
