@@ -41,7 +41,7 @@ const MovieDetails = () => {
                 src={
                   movieInfo.poster_path
                     ? `https://image.tmdb.org/t/p/w500${movieInfo.poster_path}`
-                    : 'https://via.placeholder.com/400x600?text=No+Image'
+                    : 'https://imageio.forbes.com/blogs-images/forbespr/files/2017/10/1010_forbes-400-trump-11-14-2017-cover_768x1005.jpg?format=jpg&width=1440'
                 }
                 alt={movieInfo.title}
               />
