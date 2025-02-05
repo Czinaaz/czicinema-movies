@@ -125,7 +125,7 @@ h3 {
   }
 
   .filmList {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
   .filmListItem img {
@@ -144,7 +144,7 @@ h3 {
     margin: 10% 0 10% 0;
   }
   .filmList {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
   .form input {

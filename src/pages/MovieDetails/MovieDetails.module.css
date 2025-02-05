@@ -146,7 +146,56 @@
   color: #0088ff;
 }
 
-/* ✅ Responsive Design */
+/* Trailer */
+
+.mediaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.trailer {
+  width: 400px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin: 5% auto 5% auto;
+}
+
+@media (min-width: 768px) {
+  .mediaContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .trailer {
+    width: 500px;
+    height: 281px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 5% auto 5% auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 640px;
+    height: 360px;
+    margin: 5% auto 5% auto;
+  }
+}
+
+/*  */
+
 @media (max-width: 900px) {
   .wrapper {
     flex-direction: column;
@@ -202,4 +251,5 @@
     display: block;
     margin: 10px auto;
   }
+  
 }
