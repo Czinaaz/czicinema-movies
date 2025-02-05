@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/czicinema-movies/static/css/main.e327de6c.css",
-    "main.js": "/czicinema-movies/static/js/main.d9b8023c.js",
+    "main.js": "/czicinema-movies/static/js/main.f82bad1c.js",
     "static/css/527.9f107aeb.chunk.css": "/czicinema-movies/static/css/527.9f107aeb.chunk.css",
     "static/js/527.5c3bd6e0.chunk.js": "/czicinema-movies/static/js/527.5c3bd6e0.chunk.js",
     "static/css/881.7418a0b3.chunk.css": "/czicinema-movies/static/css/881.7418a0b3.chunk.css",
     "static/js/881.d5adea9e.chunk.js": "/czicinema-movies/static/js/881.d5adea9e.chunk.js",
     "static/css/135.d12f84dc.chunk.css": "/czicinema-movies/static/css/135.d12f84dc.chunk.css",
-    "static/js/135.369e1e83.chunk.js": "/czicinema-movies/static/js/135.369e1e83.chunk.js",
+    "static/js/135.1855a4d7.chunk.js": "/czicinema-movies/static/js/135.1855a4d7.chunk.js",
     "static/css/872.abf0f757.chunk.css": "/czicinema-movies/static/css/872.abf0f757.chunk.css",
     "static/js/872.edb1a941.chunk.js": "/czicinema-movies/static/js/872.edb1a941.chunk.js",
     "static/css/284.b4be3a23.chunk.css": "/czicinema-movies/static/css/284.b4be3a23.chunk.css",
@@ -19,13 +19,13 @@
     "static/js/942.6cce59df.chunk.js": "/czicinema-movies/static/js/942.6cce59df.chunk.js",
     "index.html": "/czicinema-movies/index.html",
     "main.e327de6c.css.map": "/czicinema-movies/static/css/main.e327de6c.css.map",
-    "main.d9b8023c.js.map": "/czicinema-movies/static/js/main.d9b8023c.js.map",
+    "main.f82bad1c.js.map": "/czicinema-movies/static/js/main.f82bad1c.js.map",
     "527.9f107aeb.chunk.css.map": "/czicinema-movies/static/css/527.9f107aeb.chunk.css.map",
     "527.5c3bd6e0.chunk.js.map": "/czicinema-movies/static/js/527.5c3bd6e0.chunk.js.map",
     "881.7418a0b3.chunk.css.map": "/czicinema-movies/static/css/881.7418a0b3.chunk.css.map",
     "881.d5adea9e.chunk.js.map": "/czicinema-movies/static/js/881.d5adea9e.chunk.js.map",
     "135.d12f84dc.chunk.css.map": "/czicinema-movies/static/css/135.d12f84dc.chunk.css.map",
-    "135.369e1e83.chunk.js.map": "/czicinema-movies/static/js/135.369e1e83.chunk.js.map",
+    "135.1855a4d7.chunk.js.map": "/czicinema-movies/static/js/135.1855a4d7.chunk.js.map",
     "872.abf0f757.chunk.css.map": "/czicinema-movies/static/css/872.abf0f757.chunk.css.map",
     "872.edb1a941.chunk.js.map": "/czicinema-movies/static/js/872.edb1a941.chunk.js.map",
     "284.b4be3a23.chunk.css.map": "/czicinema-movies/static/css/284.b4be3a23.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.e327de6c.css",
-    "static/js/main.d9b8023c.js"
+    "static/js/main.f82bad1c.js"
   ]
 }
