@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchUpcomingMovies } from 'api/api';
+import { Link } from 'react-router-dom';
 import styles from './UpcomingMovies.module.css';
 
 const UpcomingMovies = () => {
@@ -14,7 +15,8 @@ const UpcomingMovies = () => {
         <h2 className={styles.title}> Expected Premieres</h2>
         <div className={styles.movieContainer}>
             {upcomingMovies.map(({ id, title, release_date, poster_path }) => (
-            <div key={id} className={styles.movieCard}>
+            <div key={id} className={styles.movieCard} >
+                <Link className={styles.linkItem} to={`/czicinema-movies/movies/${id}`}>
                 <img
                 src={
                     poster_path
@@ -26,6 +28,7 @@ const UpcomingMovies = () => {
                 />
                 <h3 className={styles.movieTitle}>{title}</h3>
                 <p className={styles.releaseDate}>📅 Premiere: {release_date}</p>
+                </Link>
             </div>
             ))}
         </div>
